@@ -1,0 +1,221 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+    margin: 0;
+      padding: 0;
+        background-color: #f5f5dc;
+          color: #333;
+            line-height: 1.6;
+            }
+
+            header {
+              text-align: center;
+                padding: 20px;
+                  background-color: #e5d8c6;
+                  }
+
+                  header h1 {
+                    font-size: 2.8rem;
+                      color: #4b2c20;
+                        margin: 0;
+                        }
+
+                        header p {
+                          color: #665a4e;
+                            font-size: 1.3rem;
+                            }
+
+                            .banner {
+                              text-align: center;
+                                padding: 50px 20px;
+                                  background-color: #d4c1a7;
+                                  }
+
+                                  .banner h2 {
+                                    font-size: 2.2rem;
+                                    }
+
+                                    .banner p {
+                                      margin: 15px 0;
+                                      }
+
+                                      .btn {
+                                        display: inline-block;
+                                          padding: 12px 25px;
+                                            margin-top: 20px;
+                                              color: #fff;
+                                                background-color: #4b2c20;
+                                                  text-decoration: none;
+                                                    border-radius: 5px;
+                                                      font-weight: bold;
+                                                      }
+
+                                                      .offer, .founder, .why-us {
+                                                        padding: 40px 20px;
+                                                          text-align: center;
+                                                          }
+
+                                                          .products {
+                                                            padding: 40px 20px;
+                                                              background-color: #f9f3e7;
+                                                              }
+
+                                                              .product {
+                                                                display: flex;
+                                                                  align-items: center;
+                                                                    margin: 30px 0;
+                                                                      justify-content: space-between;
+                                                                      }
+
+                                                                      .product.reverse {
+                                                                        flex-direction: row-reverse;
+                                                                        }
+
+                                                                        .product-text {
+                                                                          flex: 1;
+                                                                            padding: 20px;
+                                                                            }
+
+                                                                            .product-text h3 {
+                                                                              font-size: 1.8rem;
+                                                                                margin-bottom: 15px;
+                                                                                }
+
+                                                                                .product-image {
+                                                                                  flex: 1;
+                                                                                    padding: 20px;
+                                                                                    }
+
+                                                                                    .product-image img {
+                                                                                      max-width: 100%;
+                                                                                        height: auto;
+                                                                                          border-radius: 10px;
+                                                                                          }
+
+                                                                                          .founder blockquote {
+                                                                                            font-style: italic;
+                                                                                              margin: 20px 0;
+                                                                                              }
+
+                                                                                              .why-us ul {
+                                                                                                list-style: none;
+                                                                                                  padding: 0;
+                                                                                                    margin: 20px 0;
+                                                                                                    }
+
+                                                                                                    .why-us ul li {
+                                                                                                      margin: 10px 0;
+                                                                                                        text-align: left;
+                                                                                                        }
+
+                                                                                                        .footer {
+                                                                                                          background-color: #4b2c20;
+                                                                                                            color: #fff;
+                                                                                                              text-align: center;
+                                                                                                                padding: 20px;
+                                                                                                                }
+
+                                                                                                                .footer a {
+                                                                                                                  color: #fff;
+                                                                                                                    text-decoration: none;
+                                                                                                                      margin: 0 10px;
+                                                                                                                      }
+
+                                                                                                                      /* About Page Styles */
+                                                                                                                      .about {
+                                                                                                                        padding: 40px 20px;
+                                                                                                                        }
+
+                                                                                                                        .about h2 {
+                                                                                                                          font-size: 2.4rem;
+                                                                                                                            margin-bottom: 20px;
+                                                                                                                            }
+
+                                                                                                                            .about p {
+                                                                                                                              font-size: 1.2rem;
+                                                                                                                                line-height: 1.8;
+                                                                                                                                  margin-bottom: 20px;
+                                                                                                                                  }
+
+                                                                                                                                  .about h3 {
+                                                                                                                                    font-size: 1.8rem;
+                                                                                                                                      margin-top: 40px;
+                                                                                                                                      }
+
+                                                                                                                                      .about ul {
+                                                                                                                                        list-style: none;
+                                                                                                                                          padding: 0;
+                                                                                                                                          }
+
+                                                                                                                                          .about ul li {
+                                                                                                                                            font-size: 1.2rem;
+                                                                                                                                              margin-bottom: 10px;
+                                                                                                                                              }
+
+                                                                                                                                              .about .social-links {
+                                                                                                                                                margin-top: 20px;
+                                                                                                                                                }
+
+                                                                                                                                                .about .social-links a {
+                                                                                                                                                  color: #4b2c20;
+                                                                                                                                                    margin: 0 10px;
+                                                                                                                                                      text-decoration: none;
+                                                                                                                                                        font-size: 1.2rem;
+                                                                                                                                                        }
+
+                                                                                                                                                        /* Products Page Styles */
+                                                                                                                                                        .products h2 {
+                                                                                                                                                          font-size: 2.4rem;
+                                                                                                                                                            margin-bottom: 20px;
+                                                                                                                                                            }
+
+                                                                                                                                                            .products p {
+                                                                                                                                                              font-size: 1.2rem;
+                                                                                                                                                                margin-bottom: 20px;
+                                                                                                                                                                }
+
+                                                                                                                                                                .product {
+                                                                                                                                                                  display: flex;
+                                                                                                                                                                    align-items: center;
+                                                                                                                                                                      margin: 30px 0;
+                                                                                                                                                                        justify-content: space-between;
+                                                                                                                                                                          flex-wrap: wrap;
+                                                                                                                                                                          }
+
+                                                                                                                                                                          .product-text {
+                                                                                                                                                                            flex: 1;
+                                                                                                                                                                              padding: 20px;
+                                                                                                                                                                              }
+
+                                                                                                                                                                              .product-text h3 {
+                                                                                                                                                                                font-size: 1.8rem;
+                                                                                                                                                                                  margin-bottom: 15px;
+                                                                                                                                                                                  }
+
+                                                                                                                                                                                  .product-image {
+                                                                                                                                                                                    flex: 1;
+                                                                                                                                                                                      padding: 20px;
+                                                                                                                                                                                        display: flex;
+                                                                                                                                                                                          justify-content: center;
+                                                                                                                                                                                          }
+
+                                                                                                                                                                                          .product-image img {
+                                                                                                                                                                                            max-width: 80%;
+                                                                                                                                                                                              height: auto;
+                                                                                                                                                                                                border-radius: 10px;
+                                                                                                                                                                                                }
+
+                                                                                                                                                                                                /* Footer Styles */
+                                                                                                                                                                                                .footer {
+                                                                                                                                                                                                  background-color: #4b2c20;
+                                                                                                                                                                                                    color: #fff;
+                                                                                                                                                                                                      text-align: center;
+                                                                                                                                                                                                        padding: 20px;
+                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                        .footer a {
+                                                                                                                                                                                                          color: #fff;
+                                                                                                                                                                                                            text-decoration: none;
+                                                                                                                                                                                                              margin: 0 10px;
+                                                                                                                                                                                                              }
+                                                                                                                                                                                                              
